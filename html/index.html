@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+
+ <header>
+    <h1>Plataforma ONG</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+ <section id="home" class="page">
+    <h2>Bem-vindo à nossa ONG</h2>
+    <p>Conheça nossos projetos e participe como voluntário ou doador!</p>
+</section>
+
+<section id="projects" class="page">
+    <h2>Projetos</h2>
+    <div id="projectsContainer" class="container">
+     </div>
+</section>
+
+<section id="contact" class="page">
+    <h2>Contato</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+ <script src="../js/main.js"></script>
+<script src="../js/formValidation.js"></script>
+<script src="../js/templates.js"></script>
+
 </body>
 </html>
-

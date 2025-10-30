@@ -1,110 +1,137 @@
-# Plataforma Web para ONGs
+# 🌍 Projeto Site para ONGs
 
-## 1. Contexto e Relevância
-O terceiro setor brasileiro é uma força econômica e social significativa, movimentando mais de R$ 15 bilhões anuais e empregando cerca de 3 milhões de pessoas. Segundo o IBGE, existem mais de 820 mil organizações da sociedade civil no país, mas apenas 30% delas possuem presença digital adequada.
-
-Este projeto propõe a criação de uma **plataforma web para ONGs**, unindo tecnologia e impacto social, permitindo que elas gerenciem projetos, captem recursos e engajem voluntários.
+Plataforma web desenvolvida para auxiliar Organizações Não Governamentais (ONGs) na gestão de projetos, captação de recursos e engajamento de voluntários.  
+Este projeto foi desenvolvido por **Pedro da Silva Vitorino** como parte das entregas da disciplina de **Desenvolvimento Front-End**, consolidando HTML5, CSS3, JavaScript e práticas de versionamento com Git/GitHub.
 
 ---
 
-## 2. Objetivo Geral
-Desenvolver uma plataforma web moderna e funcional que permita às ONGs **gerenciar atividades, divulgar projetos, captar recursos e engajar voluntários**, aplicando conceitos de HTML5, CSS3, JavaScript e boas práticas de desenvolvimento web.
+## 🚀 Objetivo do Projeto
+
+Oferecer uma **plataforma completa e acessível** que permita ONGs:
+- Divulgar seus projetos e campanhas;
+- Cadastrar e gerenciar voluntários;
+- Receber doações online;
+- Manter transparência com o público;
+- Garantir uma experiência inclusiva e responsiva.
 
 ---
 
-## 3. Objetivos Específicos
-- Aplicar **HTML5** na criação de estruturas semânticas completas.
-- Implementar **CSS3** para layouts responsivos e design avançado.
-- Desenvolver funcionalidades **dinâmicas** com **JavaScript**.
-- Integrar ferramentas de **versionamento e acessibilidade**.
-- Simular um ambiente de **desenvolvimento profissional** com metodologias ágeis.
-- Elaborar **documentação técnica clara e completa**.
+## 🧩 Estrutura do Projeto
+
+projeto_ongs/
+├── html/
+│ └── index.html
+├── css/
+│ ├── style.css
+│ └── style.min.css
+├── js/
+│ ├── main.js
+│ ├── formValidation.js
+│ ├── templates.js
+│ └── main.min.js
+├── assets/
+│ └── imagens/
+└── README.md
+
+yaml
+Copiar código
 
 ---
 
-## 4. Justificativa Pedagógica
-O projeto permite que os estudantes apliquem todo o conteúdo da disciplina em um contexto realista e socialmente relevante.  
-A plataforma oferece múltiplas situações práticas:
-- Diferentes tipos de usuários (administradores, voluntários, doadores).
-- Diversas funcionalidades (dashboard, campanhas, relatórios).
-- Requisitos técnicos variados (responsividade, acessibilidade, desempenho).
+## 🧠 Tecnologias Utilizadas
+
+- **HTML5** – Estrutura semântica e acessível  
+- **CSS3** – Design responsivo e modo escuro  
+- **JavaScript (ES6+)** – SPA básica e interatividade  
+- **Git/GitHub** – Versionamento e controle de branches  
+- **WCAG 2.1 AA** – Padrões de acessibilidade web  
 
 ---
 
-## 5. Personas e Casos de Uso
+## 🧭 Funcionalidades
 
-### Administrador da ONG
-- Gerencia informações institucionais e projetos.
-- Acompanha doações e voluntários.
-- Analisa métricas de engajamento.
-
-### Voluntário
-- Descobre oportunidades e se inscreve em projetos.
-- Acompanha histórico de participação.
-- Recebe certificados digitais.
-
-### Doador
-- Conhece projetos e realiza doações online.
-- Acompanha uso dos recursos.
-- Recebe relatórios de transparência.
-
-### Visitante
-- Conhece a organização e projetos.
-- Acessa informações de contato.
-- Compartilha conteúdo nas redes sociais.
+- 📁 Estrutura semântica HTML com múltiplas seções (Home, Projetos, Contato)  
+- 💬 SPA (Single Page Application) com navegação dinâmica via JS  
+- 🧾 Formulário com validação visual e feedback ao usuário  
+- 🖼️ Renderização dinâmica de cards de projetos  
+- 🎨 Sistema de design com paleta de cores e tipografia hierárquica  
+- 🌗 Modo escuro / alto contraste acessível  
+- 📱 Design 100% responsivo (mobile-first)
 
 ---
 
-## 6. Funcionalidades Principais
+## ♿ Acessibilidade (WCAG 2.1 AA)
 
-### Área Institucional
-- Missão, visão e valores.
-- Histórico e conquistas.
-- Equipe e estrutura organizacional.
-- Relatórios de transparência.
+Foram aplicadas as seguintes práticas:
 
-### Gestão de Projetos
-- Cadastro detalhado de projetos.
-- Galeria de fotos e vídeos.
-- Indicadores de impacto.
-- Sistema de categorias e filtros.
-
-### Engajamento de Voluntários
-- Portal de oportunidades.
-- Inscrição e seleção.
-- Área pessoal do voluntário.
-- Certificados digitais.
-
-### Captação de Recursos
-- Campanhas de arrecadação.
-- Formulário de doações online (simulado).
-- Metas e progresso em tempo real.
-- Relatórios de prestação de contas.
-
-### Comunicação e Transparência
-- Blog de notícias.
-- Newsletter.
-- Área de imprensa.
-- Central de documentos públicos.
+- Navegação completa por teclado (TAB / ENTER)  
+- Estrutura semântica com tags `<header>`, `<main>`, `<section>`, `<footer>`  
+- Textos e botões com contraste mínimo de 4.5:1  
+- Atributos `alt` em todas as imagens  
+- Compatibilidade com leitores de tela  
+- Modo de **alto contraste / dark mode** via CSS  
+- Foco visível em elementos interativos  
 
 ---
 
-## 7. Requisitos Técnicos
-- **Responsividade:** design mobile-first.
-- **Desempenho:** carregamento rápido, otimização de imagens.
-- **Acessibilidade:** WCAG 2.1 AA, contraste adequado, navegação por teclado.
-- **Segurança:** HTTPS e validação de formulários.
-- **SEO:** estrutura semântica e meta tags otimizadas.
+## ⚙️ Otimização para Produção
+
+- CSS e JS minificados (`style.min.css`, `main.min.js`)  
+- Imagens comprimidas com TinyPNG  
+- Lazy loading aplicado a elementos pesados  
+- Estrutura de pastas otimizada para deploy  
 
 ---
 
-## 8. Tecnologias Recomendadas
-- **HTML5**, **CSS3**, **JavaScript**.
-- **Git/GitHub** para controle de versão.
-- **Figma** (opcional) para prototipagem visual.
+## 🔁 Controle de Versão (GitFlow)
+
+Fluxo de versionamento implementado com base no **GitFlow**:
+
+- `main` → versão estável / produção  
+- `develop` → ambiente de desenvolvimento  
+- `feature/*` → desenvolvimento de novas funcionalidades  
+
+### Exemplo de commits semânticos:
+feat: adiciona sistema de validação de formulários
+fix: corrige bug no menu responsivo
+style: ajusta contraste para acessibilidade
+docs: atualiza README com novas instruções
+
+yaml
+Copiar código
+
+### Versionamento semântico:
+- Release: **v1.0.0** – Entrega final consolidada  
 
 ---
 
-## 9. Protótipo Visual (Wireframe)
+## 🧰 Como Executar o Projeto
 
-### Página Inicial (Home)
+1. Baixe ou clone o repositório:
+   ```bash
+   git clone https://github.com/PedroVitorino/projeto-site-ongs.git
+Acesse a pasta html/ e abra o arquivo index.html no navegador.
+
+Explore o menu para navegar entre as páginas (Home, Projetos e Contato).
+
+📌 Issues e Milestones
+Durante o desenvolvimento, foram utilizadas Issues e Milestones no GitHub para organizar tarefas e entregas:
+
+#1 Estruturar HTML semântico
+
+#2 Implementar CSS responsivo
+
+#3 Adicionar interatividade com JS
+
+#4 Aplicar acessibilidade e otimização final
+
+🧾 Autor
+Pedro da Silva Vitorino
+Disciplina: Desenvolvimento Front-End
+Instituição: (adicione o nome da sua instituição)
+Professor: (adicione o nome do professor, se desejar)
+
+🏁 Versão Final
+Release: v1.0.0
+Data: Outubro de 2025
+Status: ✅ Entrega concluída
